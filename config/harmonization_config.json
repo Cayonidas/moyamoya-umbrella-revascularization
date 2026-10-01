@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "expected_formal_effects": 267,
+  "expected_forest_candidates": 83,
+  "expected_operational_noncomparison_C00": 110,
+  "expected_other_outcome_O99": 14,
+  "expected_comparison_text_mismatch": 2,
+  "allowed_codes": {
+    "phenotype": [
+      "ADULT_HEM",
+      "ADULT_ISCH",
+      "ADULT_MIX",
+      "ASYM_STABLE",
+      "MIXED_UNSEP",
+      "MMS_NF1",
+      "MMS_OTHER",
+      "MMS_SCD",
+      "PED_MIX",
+      "PREG"
+    ],
+    "comparison": [
+      "C00",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15"
+    ],
+    "outcome": [
+      "O01",
+      "O02",
+      "O03",
+      "O04",
+      "O05",
+      "O06",
+      "O07",
+      "O08",
+      "O09",
+      "O10",
+      "O11",
+      "O12",
+      "O13",
+      "O16",
+      "O99"
+    ],
+    "horizon": [
+      "T1",
+      "T3",
+      "T4",
+      "T9"
+    ],
+    "unit": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05",
+      "U06",
+      "U07"
+    ],
+    "measure": [
+      "EM_CONTINUOUS_OTHER",
+      "EM_COUNT",
+      "EM_DESCRIPTIVE",
+      "EM_HR",
+      "EM_MD",
+      "EM_MIXED_RATIO",
+      "EM_OR",
+      "EM_OTHER",
+      "EM_PROPORTION",
+      "EM_RATE",
+      "EM_RR",
+      "EM_WMD"
+    ],
+    "analysis_role": [
+      "COMPARATIVE",
+      "DESCRIPTIVE",
+      "DESCRIPTIVE_WITH_COMPARATOR",
+      "PATIENT_CENTERED_DESCRIPTIVE",
+      "PROGNOSTIC",
+      "SURROGATE_DESCRIPTIVE"
+    ]
+  },
+  "operational_noninferential_codes": {
+    "comparison": "C00",
+    "outcome": "O99"
+  },
+  "formal_tiers": [
+    "Tier 1 — Core formal synthesis",
+    "Tier 2 — Contextual formal synthesis/evidence map"
+  ],
+  "forest_measure_codes": [
+    "EM_OR",
+    "EM_RR",
+    "EM_HR",
+    "EM_MD",
+    "EM_WMD"
+  ],
+  "refinement_expected": {
+    "formal_effects": 267,
+    "duplicate_rows_excluded": 12,
+    "final_forest_candidates": 72,
+    "final_forest_cells": 60
+  }
+}

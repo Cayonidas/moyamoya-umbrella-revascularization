@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the archived release and the associated article when available."
+title: "Moyamoya Revascularization Umbrella Review: Publication-Final Reproducibility Package"
+type: software
+version: 1.0.0
+date-released: 2026-10-01
+authors:
+  - family-names: Maciel
+    given-names: Caio Arruda
+    orcid: "https://orcid.org/0009-0007-4514-4891"
+  - family-names: da Silva
+    given-names: Kauã Gabriel Oliveira
+  - family-names: de Paula
+    given-names: Vinicius Galbim
+  - family-names: de Paiva
+    given-names: Michelle Rüedi
+  - family-names: Figueiredo
+    given-names: Eberval Gadelha
+keywords:
+  - moyamoya disease
+  - cerebral revascularization
+  - bypass surgery
+  - stroke prevention
+  - umbrella review
+  - reproducibility

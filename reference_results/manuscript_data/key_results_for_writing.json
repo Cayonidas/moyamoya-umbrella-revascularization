@@ -1,0 +1,71 @@
+{
+  "refinement": {
+    "refinement_version": "3.0",
+    "formal_source_rows": 267,
+    "duplicate_rows": 12,
+    "final_forest_candidates": 72,
+    "final_forest_cells": 60,
+    "C15_rows": 2,
+    "O16_rows": 16,
+    "status": "PASS"
+  },
+  "publication_qc": {
+    "module": "02c_publication_qc",
+    "formal_effects": 267,
+    "registry_effects": 30,
+    "final_forest_effects": 72,
+    "final_quantitative_cells": 60,
+    "status": "PASS"
+  },
+  "anchors": {
+    "module": "04_anchor_selection",
+    "quantitative_cells": 60,
+    "anchors": 60,
+    "corroborators": 7,
+    "cells_with_multiple_reviews": 7,
+    "unresolved_anchor_flags": 0,
+    "comparator_mismatches": 0,
+    "status": "PASS"
+  },
+  "descriptive": {
+    "module": "03_descriptive_reviews",
+    "formal_reviews": 68,
+    "tier1": 45,
+    "tier2": 23,
+    "amstar_low": 13,
+    "amstar_critically_low": 55,
+    "robis_high": 50,
+    "robis_unclear": 18,
+    "patient_centered_effect_rows": 7,
+    "status": "PASS"
+  },
+  "overlap": {
+    "module": "08_overlap",
+    "matrix_header_row": 4,
+    "matrix_audit_boundary_row": 489,
+    "matrix_data_rows": 482,
+    "raw_author_year_keys": 482,
+    "raw_all_occurrences": 610,
+    "raw_formal_unique_keys": 472,
+    "raw_formal_occurrences": 599,
+    "adjusted_formal_publications": 479,
+    "adjusted_formal_occurrences": 588,
+    "formal_reviews_contributing_raw_keys": 44,
+    "frozen_CCA_reproduced": true,
+    "overall_CCA": 0.0053,
+    "overall_CCA_percent": 0.5292,
+    "review_pairs": 946,
+    "pairs_with_overlap": 63,
+    "cohort_families": 10,
+    "status": "PASS"
+  },
+  "sensitivity": {
+    "module": "10_sensitivities",
+    "standard_sensitivities": 12,
+    "baseline_cells": 60,
+    "family_sensitivities": 7,
+    "leave_one_review_out_runs": 0,
+    "direction_reversals": 0,
+    "status": "PASS"
+  }
+}

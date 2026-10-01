@@ -1,0 +1,16 @@
+{
+  "unique_records_screened": 1485,
+  "title_abstract_excluded": 1401,
+  "tracked_separately": 3,
+  "reports_sought_for_retrieval": 81,
+  "full_text_unavailable": 5,
+  "conference_annals_abstracts": 4,
+  "reports_assessed_full_text": 72,
+  "formal_umbrella_units": 68,
+  "context_only_reports": 4,
+  "editorial_notices_discovered": 2,
+  "provenance": {
+    "screening": "Consensus title/abstract screening: 1,485 unique records; final disposition 81 full-text retrieval, 3 tracked separately, 1,401 excluded.",
+    "full_text": "Frozen master PRISMA disposition: 81 sought, 72 retrieved/assessed, 5 unavailable full texts, 4 conference/annals abstracts, 68 formal umbrella units, 4 context-only reports."
+  }
+}

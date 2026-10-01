@@ -1,0 +1,46 @@
+decision_context,outcome_domain,reviews,forest_candidates,mixed_unit_rows,unspecified_horizon_rows,gap_class
+Adult symptomatic: surgery vs conservative,Function,1,0,1,1,No forest-ready comparative estimate
+Adult symptomatic: surgery vs conservative,Hemodynamics,1,1,1,1,Single-review quantitative evidence
+Adult symptomatic: surgery vs conservative,Late hemorrhage,3,3,0,1,Available but structurally heterogeneous
+Adult symptomatic: surgery vs conservative,Late/recurrent stroke,7,7,5,9,Available but structurally heterogeneous
+Adult symptomatic: surgery vs conservative,Mortality,2,1,1,2,Available but structurally heterogeneous
+Adult symptomatic: surgery vs conservative,TIA,1,0,0,3,No forest-ready comparative estimate
+Adult: combined vs indirect,Angiography/patency,1,0,0,1,No forest-ready comparative estimate
+Adult: combined vs indirect,Early hemorrhage,2,2,2,0,Available but structurally heterogeneous
+Adult: combined vs indirect,Early ischemia,3,1,3,1,Available but structurally heterogeneous
+Adult: combined vs indirect,Function,3,3,3,0,Available but structurally heterogeneous
+Adult: combined vs indirect,Late hemorrhage,1,2,2,0,Single-review quantitative evidence
+Adult: combined vs indirect,Late/recurrent stroke,1,2,2,0,Single-review quantitative evidence
+Adult: direct vs combined,Function,1,0,0,0,No forest-ready comparative estimate
+Adult: direct vs combined,Late/recurrent stroke,1,1,1,0,Single-review quantitative evidence
+Adult: direct vs indirect,Angiography/patency,1,1,1,1,Single-review quantitative evidence
+Adult: direct vs indirect,Early hemorrhage,2,2,2,0,Available but structurally heterogeneous
+Adult: direct vs indirect,Early ischemia,1,1,1,0,Single-review quantitative evidence
+Adult: direct vs indirect,Function,2,2,2,0,Available but structurally heterogeneous
+Adult: direct vs indirect,Late hemorrhage,2,3,3,0,Available but structurally heterogeneous
+Adult: direct vs indirect,Late/recurrent stroke,5,5,6,2,Available but structurally heterogeneous
+Adult: direct/combined vs indirect,Angiography/patency,1,1,0,0,Single-review quantitative evidence
+Adult: direct/combined vs indirect,Hemodynamics,1,1,0,0,Single-review quantitative evidence
+Adult: direct/combined vs indirect,Late/recurrent stroke,2,2,0,1,Available but structurally heterogeneous
+Anesthesia: inhalational vs intravenous,Early ischemia,1,1,0,0,Single-review quantitative evidence
+Anesthesia: inhalational vs intravenous,TIA,1,1,0,0,Single-review quantitative evidence
+Antiplatelet vs none/alternative,Angiography/patency,2,2,2,1,Available but structurally heterogeneous
+Antiplatelet vs none/alternative,Early ischemia,3,2,4,1,Available but structurally heterogeneous
+Antiplatelet vs none/alternative,Function,3,2,2,2,Available but structurally heterogeneous
+Antiplatelet vs none/alternative,Late hemorrhage,2,2,2,2,Available but structurally heterogeneous
+Antiplatelet vs none/alternative,Late/recurrent stroke,3,3,1,2,Available but structurally heterogeneous
+Antiplatelet vs none/alternative,Mortality,1,0,0,1,No forest-ready comparative estimate
+Antiplatelet vs none/alternative,TIA,1,1,1,1,Single-review quantitative evidence
+Asymptomatic/stable: surgery vs surveillance,Late hemorrhage,1,0,0,1,No forest-ready comparative estimate
+Asymptomatic/stable: surgery vs surveillance,Late/recurrent stroke,1,0,1,2,No forest-ready comparative estimate
+Asymptomatic/stable: surgery vs surveillance,Mortality,1,0,0,0,No forest-ready comparative estimate
+Asymptomatic/stable: surgery vs surveillance,TIA,1,1,1,1,Single-review quantitative evidence
+Hemorrhagic MMD: revascularization,Late hemorrhage,3,2,1,3,Available but structurally heterogeneous
+Hemorrhagic MMD: revascularization,Late/recurrent stroke,5,4,2,3,Available but structurally heterogeneous
+Hemorrhagic MMD: revascularization,Mortality,3,3,2,4,Available but structurally heterogeneous
+Pediatric: direct/combined vs indirect,Angiography/patency,1,1,0,1,Single-review quantitative evidence
+Pediatric: direct/combined vs indirect,Early ischemia,1,0,0,0,No forest-ready comparative estimate
+Pediatric: direct/combined vs indirect,Late/recurrent stroke,1,0,0,3,No forest-ready comparative estimate
+Pediatric: direct/combined vs indirect,TIA,1,1,0,0,Single-review quantitative evidence
+Remote ischemic conditioning vs control,Late/recurrent stroke,1,1,0,1,Single-review quantitative evidence
+Remote ischemic conditioning vs control,TIA,1,1,0,1,Single-review quantitative evidence

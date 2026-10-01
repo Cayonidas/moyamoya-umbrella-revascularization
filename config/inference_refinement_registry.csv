@@ -1,0 +1,46 @@
+﻿Effect ID,Action,Duplicate of,Phenotype override,Comparison override,Outcome override,Horizon override,Unit override,Measure override,Analysis role override,Comparison orientation override,Outcome benefit multiplier override,Intervention display override,Comparator display override,Anchor eligible override,Corroborator eligible override,Forest eligible override,Reason
+E0165,exclude_duplicate,E0009,,,,,,,,,,,,No,No,No,Duplicate representation of the same review-level result; retain E0009.
+E0204,exclude_duplicate,E0036,,,,,,,,,,,,No,No,No,Duplicate representation of the same review-level result; retain E0036.
+E0092,exclude_duplicate,E0243,,,,,,,,,,,,No,No,No,Duplicate representation of the same review-level result; retain E0243.
+E0245,exclude_duplicate,E0109,,,,,,,,,,,,No,No,No,Duplicate representation of the same review-level result; retain E0109.
+E0118,exclude_duplicate,E0295,,,,,,,,,,,,No,No,No,Duplicate representation of the same review-level result; retain E0295.
+E0122,exclude_duplicate,E0253,,,,,,,,,,,,No,No,No,Duplicate representation of the same review-level result; retain E0253.
+E0124,exclude_duplicate,E0256,,,,,,,,,,,,No,No,No,Duplicate representation of the same review-level result; retain E0256.
+E0126,exclude_duplicate,E0296,,,,,,,,,,,,No,No,No,Duplicate representation of the same review-level result; retain E0296.
+E0131,exclude_duplicate,E0258,,,,,,,,,,,,No,No,No,Duplicate representation of the same review-level result; retain E0258.
+E0134,exclude_duplicate,E0259,,,,,,,,,,,,No,No,No,Duplicate representation of the same review-level result; retain E0259.
+E0148,exclude_duplicate,E0262,,,,,,,,,,,,No,No,No,Duplicate representation of the same review-level result; retain E0262.
+E0205,exclude_duplicate,E0263,,,,,,,,,,,,No,No,No,Duplicate representation of the same review-level result; retain E0263.
+E0024,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0025,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0033,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0034,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0035,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0038,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0081,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0123,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0129,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0130,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0168,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0182,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0216,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0227,retain,,,C02,O16,T3,,,,-1,,Indirect bypass,Direct bypass,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone. Source defines recurrent stroke after >6 months and reports indirect versus direct bypass.
+E0258,retain,,,C01,O16,T4,,,,,,Bypass surgery,Conservative management,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone. Source-confirmed ischemic-onset subgroup of surgery versus conservative management.
+E0295,retain,,,,O16,,,,,,,,,,,,Reclassified as any/recurrent stroke or composite cerebrovascular event rather than ischemic or hemorrhagic stroke alone.
+E0012,retain,,,,O02,,,,,,,,,,,,Outcome is ischemic events within a hemorrhagic-presentation subgroup.
+E0030,retain,,,C15,,,U02,,,,,Direct/combined bypass,Indirect bypass,,,,Adult ischemic review combines direct and combined procedures against indirect bypass.
+E0031,retain,,,C15,,,U02,,,,,Direct/combined bypass,Indirect bypass,,,,Adult ischemic review combines direct and combined procedures against indirect bypass.
+E0061,retain,,,C03,,,,,,1,,Combined bypass,Indirect bypass,,,,Source reports early ICH for combined versus indirect; indirect was favored.
+E0062,retain,,,C02,,,,,,1,,Direct bypass,Indirect bypass,,,,Source reports early ICH for direct versus indirect; indirect was favored.
+E0106,retain,,,C03,,,,,,-1,,Indirect bypass,Combined bypass,,,,Reported contrast is indirect versus combined; canonical C03 is combined versus indirect.
+E0162,retain,,,,,T4,,,,,,Surgery,Conservative surveillance,,,,Source text reports follow-up TIA comparison between surgical and conservative management.
+E0200,retain,,,,,,U02,,,,,Direct/combined bypass,Indirect bypass,,,,Direct comparisons were reported by hemispheres in the pediatric meta-analysis.
+E0201,supplement_only_nonpositive_ci,,,,,,U02,,,,,Direct/combined bypass,Indirect bypass,No,Yes,No,Direct comparisons were reported by hemispheres in the pediatric meta-analysis. RR confidence interval includes a reported zero lower bound and cannot be displayed on a log scale.
+E0202,retain,,,,,,U02,,,,,Direct/combined bypass,Indirect bypass,,,,Direct comparisons were reported by hemispheres in the pediatric meta-analysis.
+E0178,retain,,,,,,U03,,,1,,Inhalational anesthesia,Intravenous anesthesia,,,,Review title and abstract establish the anesthesia contrast; the inherited surgical comparator fields were erroneous.
+E0277,retain,,,,,,U03,,,1,,Inhalational anesthesia,Intravenous anesthesia,,,,Review title and abstract establish the anesthesia contrast; the inherited surgical comparator fields were erroneous.
+E0262,retain,,,,O02,T4,,,,,,,,,,,Ischemic stroke during randomized RIC study follow-up; duplicate E0148 is excluded.
+E0265,retain,,,,,,,,,,-1,,,,,,Lower mRS is favorable; the WMD direction must be inverted for the benefit axis.
+E0190,evidence_map_only,,,,,,,,DESCRIPTIVE,,,,,No,No,No,"Single primary-study baseline/on-admission association, not a review-level treatment effect."
+E0166,descriptive_only,,,,,,,,SURROGATE_DESCRIPTIVE,,,,,No,No,No,Predominantly single-arm double-barrel evidence without a stable direct comparator.
+E0272,descriptive_only,,,,,,,,SURROGATE_DESCRIPTIVE,,,,,No,No,No,Predominantly single-arm double-barrel evidence without a stable direct comparator.

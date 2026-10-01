@@ -1,0 +1,74 @@
+{
+  "validation_version": "1.0",
+  "expected": {
+    "review_units": 74,
+    "formal_reviews": 68,
+    "raw_analysis_ready_effects": 272,
+    "formal_effects_after_quarantine": 267,
+    "quarantined_tier3_effects": [
+      "E0172",
+      "E0173",
+      "E0174",
+      "E0230",
+      "E0273"
+    ],
+    "amstar_items_per_review": 16,
+    "robis_rows_per_review": 5,
+    "missing_reports": 9
+  },
+  "required_master_sheets": [
+    "Freeze manifest",
+    "PRISMA disposition",
+    "Report inventory",
+    "Review master",
+    "Methods QA",
+    "Outcome effects final",
+    "Effect verification log",
+    "Analysis-ready effects",
+    "Clinical evidence map",
+    "Denominator audit",
+    "AMSTAR 2 items",
+    "AMSTAR 2 summary",
+    "ROBIS items",
+    "ROBIS summary",
+    "Primary publications",
+    "Publication occurrences",
+    "Publication overlap matrix",
+    "Overlap adjudication",
+    "Cohort families",
+    "CCA adjusted",
+    "Audit log",
+    "Missing full texts",
+    "Missing supplements",
+    "Context only",
+    "Editorial exclusions",
+    "Data dictionary"
+  ],
+  "ratio_measures": [
+    "OR",
+    "RR",
+    "HR"
+  ],
+  "continuous_comparative_measures": [
+    "mean difference",
+    "WMD"
+  ],
+  "allowed_formal_tiers": [
+    "Tier 1 — Core formal synthesis",
+    "Tier 2 — Contextual formal synthesis/evidence map"
+  ],
+  "allowed_dispositions_by_tier": {
+    "Tier 1 — Core formal synthesis": [
+      "Core clinical-surgical evidence table",
+      "Evidence map only"
+    ],
+    "Tier 2 — Contextual formal synthesis/evidence map": [
+      "Contextual formal evidence table",
+      "Evidence map only"
+    ],
+    "Tier 3 — Context only; not a formal umbrella unit": [
+      "Context only",
+      "Evidence map only"
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+Original repository documentation and author-created tabular annotations are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0), except for third-party material identified in the repository licensing notice.
+
+License information: https://creativecommons.org/licenses/by/4.0/

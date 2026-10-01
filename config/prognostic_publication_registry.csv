@@ -1,0 +1,12 @@
+﻿Effect ID,Publication table role,Display predictor,Final interpretation,Publication-QC note
+E0119,MAIN,Preoperative ischemic presentation,Higher postoperative stroke risk,Clear pooled association with usable CI.
+E0253,MAIN,Diabetes mellitus,Higher postoperative stroke risk,Corrected manuscript-ready estimate; duplicate E0122 excluded upstream.
+E0120,MAIN,Posterior cerebral artery involvement,Higher postoperative stroke risk,Adult review estimate; strongest PCA signal.
+E0296,MAIN_CORROBORATOR,Posterior cerebral artery involvement,Higher perioperative ischemic stroke risk,Source CI excludes 1; prior no-significant-association wording was erroneous.
+E0128,MAIN,Prior cerebral infarction,Higher perioperative ischemic stroke risk,Usable pooled CI.
+E0226,MAIN,Preoperative ischemic stroke,Higher postoperative ischemic stroke risk,Corrected pooled estimate with CI; preferred over no-CI E0079.
+E0257,MAIN_NULL,Age,No clear association,CI includes null; included as a well-estimated null association.
+E0121,MAIN_ASSOCIATION,Indirect/combined versus direct procedure group,Association with higher postoperative stroke risk,Procedural association only; not evidence of treatment-effect modification.
+E0168,EXCLUDE_COMPARATIVE_CONTEXT,Surgical intervention,Comparative treatment context,Not a predictor; do not present as prognostic.
+E0079,SUPPLEMENT_DUPLICATE_PROXY,Prior ischemic stroke,Higher postoperative ischemic stroke risk,No CI; use E0226 in the main table.
+E0127,SUPPLEMENT_AMBIGUOUS,Preoperative MRA-related factor,Higher perioperative ischemic stroke risk,Definition insufficiently transparent for the main clinical table.

@@ -1,0 +1,182 @@
+{
+  "pipeline_version": "4.0.1-publication-final",
+  "run_completed": "2026-08-07 20:38:28 -0300",
+  "R_version": "R version 4.5.2 (2025-10-31 ucrt)",
+  "required_outputs_present": true,
+  "required_output_check": [
+    {
+      "Output": "results/tables/moyamoya_manuscript_tables.xlsx",
+      "Exists": true
+    },
+    {
+      "Output": "results/tables/02c_publication_qc_audit.xlsx",
+      "Exists": true
+    },
+    {
+      "Output": "results/tables/Claims_guardrail.csv",
+      "Exists": true
+    },
+    {
+      "Output": "results/figures/main/Figure_1_PRISMA.pdf",
+      "Exists": true
+    },
+    {
+      "Output": "results/figures/main/Figure_2_phenotype_evidence_map.pdf",
+      "Exists": true
+    },
+    {
+      "Output": "results/figures/main/Figure_3_anchor_review_forests.pdf",
+      "Exists": true
+    },
+    {
+      "Output": "results/figures/main/Figure_4_early_late_tradeoff.pdf",
+      "Exists": true
+    },
+    {
+      "Output": "results/figures/main/Figure_5_translation_chain.pdf",
+      "Exists": true
+    },
+    {
+      "Output": "results/figures/main/Figure_sensitivity_matrix.pdf",
+      "Exists": true
+    }
+  ],
+  "module_summaries": {
+    "anchor_selection_summary.json": {
+      "module": "04_anchor_selection",
+      "quantitative_cells": 60,
+      "anchors": 60,
+      "corroborators": 7,
+      "cells_with_multiple_reviews": 7,
+      "unresolved_anchor_flags": 0,
+      "comparator_mismatches": 0,
+      "status": "PASS"
+    },
+    "descriptive_reviews_summary.json": {
+      "module": "03_descriptive_reviews",
+      "formal_reviews": 68,
+      "tier1": 45,
+      "tier2": 23,
+      "amstar_low": 13,
+      "amstar_critically_low": 55,
+      "robis_high": 50,
+      "robis_unclear": 18,
+      "patient_centered_effect_rows": 7,
+      "status": "PASS"
+    },
+    "effect_display_summary.json": {
+      "module": "05_effect_displays",
+      "anchors_displayed": 60,
+      "corroborators_displayed": 7,
+      "main_forest_rows": 18,
+      "supplemental_ratio_panels": 14,
+      "status": "PASS"
+    },
+    "evidence_map_summary.json": {
+      "module": "06_evidence_map",
+      "decision_context_cells": 45,
+      "contexts": 11,
+      "status": "PASS"
+    },
+    "harmonization_summary.json": {
+      "harmonization_version": "1.0",
+      "formal_effects": 267,
+      "evidence_cells": 195,
+      "forest_candidates": 83,
+      "comparative_effects": 91,
+      "prognostic_effects": 22,
+      "descriptive_effects": 176,
+      "manual_review_flags": 141,
+      "C00_rows": 110,
+      "O99_rows": 14,
+      "comparison_text_mismatches": 2,
+      "fatal_failures": 0,
+      "status": "PASS"
+    },
+    "inference_refinement_summary.json": {
+      "refinement_version": "3.0",
+      "formal_source_rows": 267,
+      "duplicate_rows": 12,
+      "final_forest_candidates": 72,
+      "final_forest_cells": 60,
+      "C15_rows": 2,
+      "O16_rows": 16,
+      "status": "PASS"
+    },
+    "overlap_analysis_summary.json": {
+      "module": "08_overlap",
+      "matrix_header_row": 4,
+      "matrix_audit_boundary_row": 489,
+      "matrix_data_rows": 482,
+      "raw_author_year_keys": 482,
+      "raw_all_occurrences": 610,
+      "raw_formal_unique_keys": 472,
+      "raw_formal_occurrences": 599,
+      "adjusted_formal_publications": 479,
+      "adjusted_formal_occurrences": 588,
+      "formal_reviews_contributing_raw_keys": 44,
+      "frozen_CCA_reproduced": true,
+      "overall_CCA": 0.0053,
+      "overall_CCA_percent": 0.5292,
+      "review_pairs": 946,
+      "pairs_with_overlap": 63,
+      "cohort_families": 10,
+      "status": "PASS"
+    },
+    "publication_qc_summary.json": {
+      "module": "02c_publication_qc",
+      "formal_effects": 267,
+      "registry_effects": 30,
+      "final_forest_effects": 72,
+      "final_quantitative_cells": 60,
+      "status": "PASS"
+    },
+    "quality_conclusion_summary.json": {
+      "module": "09_quality_conclusions",
+      "reviews": 68,
+      "strong_conclusions": 11,
+      "conditional_conclusions": 6,
+      "uncertain_conclusions": 51,
+      "status": "PASS"
+    },
+    "sensitivity_summary.json": {
+      "module": "10_sensitivities",
+      "standard_sensitivities": 12,
+      "baseline_cells": 60,
+      "family_sensitivities": 7,
+      "leave_one_review_out_runs": 0,
+      "direction_reversals": 0,
+      "status": "PASS"
+    },
+    "table_figure_summary.json": {
+      "module": "11_tables_figures",
+      "main_tables": 6,
+      "decision_matrix_rows": 11,
+      "table3_main_rows": 32,
+      "table4_main_rows": 8,
+      "claim_guardrails": 11,
+      "figure_files": 90,
+      "status": "PASS"
+    },
+    "tradeoff_translation_summary.json": {
+      "module": "07_tradeoff_translation",
+      "tradeoff_cells": 10,
+      "patient_centered_effect_rows": 7,
+      "status": "PASS"
+    },
+    "validation_summary.json": {
+      "validation_version": "1.0",
+      "master_sha256": "ebc25c3e92a85e6c0c68163a41ef9520cd96057c98b1cd6388a52603ef573418",
+      "sap_sha256": "d2ee7a0b7a08cf03f09bc053892ded23a9cfb453925942c4dff4f6d40a468071",
+      "review_units": 74,
+      "formal_reviews": 68,
+      "raw_effects": 272,
+      "formal_effects": 267,
+      "quarantined_context_effects": 5,
+      "direct_forest_ready": 102,
+      "comparative_numeric_without_ci": 10,
+      "pre_quarantine_status": "FAIL — V02",
+      "post_quarantine_status": "PASS WITH DOCUMENTED QUARANTINE AND NONFATAL FOREST-READINESS WARNING"
+    }
+  }
+}

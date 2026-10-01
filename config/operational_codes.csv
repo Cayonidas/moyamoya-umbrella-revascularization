@@ -1,0 +1,70 @@
+﻿Code family,Code,Label,Inferential role
+Phenotype,ADULT_ISCH,Adult ischemic/symptomatic MMD,Formal
+Phenotype,ADULT_HEM,Adult hemorrhagic MMD,Formal
+Phenotype,ADULT_MIX,Adult mixed symptomatic MMD,Secondary
+Phenotype,PED_ISCH,Pediatric ischemic/symptomatic MMD,Formal when explicitly separable
+Phenotype,PED_MIX,Pediatric mixed MMD/MMS or mixed presentation,Secondary
+Phenotype,ASYM_STABLE,Asymptomatic/hemodynamically stable MMD,Contextual formal
+Phenotype,MMS_SCD,Sickle-cell-associated moyamoya syndrome,Contextual formal
+Phenotype,MMS_NF1,NF1-associated moyamoya syndrome,Evidence map
+Phenotype,MMS_OTHER,Other moyamoya syndromes,Evidence map
+Phenotype,PREG,Pregnancy-associated MMD/MMS,Evidence map
+Phenotype,MIXED_UNSEP,Mixed or unseparated population,Sensitivity/evidence map
+Comparison,C00,No authorized comparative question / descriptive or prognostic row,No comparative inference
+Comparison,C01,Surgery versus conservative management,SAP authorized
+Comparison,C02,Direct versus indirect bypass,SAP authorized
+Comparison,C03,Combined versus indirect bypass,SAP authorized
+Comparison,C04,Direct versus combined bypass,SAP authorized
+Comparison,C05,Pediatric direct/combined versus indirect,SAP authorized
+Comparison,C06,Hemorrhagic MMD revascularization comparison,SAP authorized
+Comparison,C07,Early-safety versus late-benefit derived construct,SAP authorized
+Comparison,C08,Asymptomatic surgery versus surveillance,SAP authorized
+Comparison,C09,Antiplatelet versus none/alternative,SAP authorized
+Comparison,C10,Intravenous versus inhalational anesthesia,SAP authorized
+Comparison,C11,Remote ischemic conditioning versus control,SAP authorized
+Comparison,C12,Indirect subtype comparison,SAP authorized
+Comparison,C13,Double-barrel versus single-barrel/benchmark,SAP authorized
+Comparison,C14,SCD-MMS surgery plus transfusion versus transfusion course,SAP authorized
+Outcome,O99,"Other, composite, baseline or insufficiently specified outcome",Evidence map / no forced canonical outcome
+Outcome,O01,Early ischemic stroke/infarction,SAP canonical
+Outcome,O02,Late ischemic stroke,SAP canonical
+Outcome,O03,TIA,SAP canonical
+Outcome,O04,Early intracranial hemorrhage,SAP canonical
+Outcome,O05,Late hemorrhage/rebleeding,SAP canonical
+Outcome,O06,Favorable functional outcome,SAP canonical
+Outcome,O07,Mortality,SAP canonical
+Outcome,O08,Cerebral hyperperfusion syndrome,SAP canonical
+Outcome,O09,Postoperative seizure,SAP canonical
+Outcome,O10,Matsushima/collateralization,SAP canonical
+Outcome,O11,Bypass patency/capacity,SAP canonical
+Outcome,O12,CBF/CVR/OEF/perfusion,SAP canonical
+Outcome,O13,Cognition/neuropsychology,SAP canonical
+Outcome,O14,QoL/school/work/headache,SAP canonical
+Outcome,O15,Failure/reoperation,SAP canonical
+Horizon,T0,Intraoperative,SAP operational
+Horizon,T1,Early/perioperative,SAP operational
+Horizon,T2,Intermediate,SAP operational
+Horizon,T3,Late/long-term,SAP operational
+Horizon,T4,Mixed/unspecified follow-up,SAP operational
+Horizon,T9,Not reported/not analytic,SAP operational
+Unit,U01,Patient,SAP operational
+Unit,U02,Hemisphere,SAP operational
+Unit,U03,Procedure/surgery,SAP operational
+Unit,U04,Bypass/anastomosis,SAP operational
+Unit,U05,Patient-year,SAP operational
+Unit,U06,Pregnancy,SAP operational
+Unit,U07,Mixed/unclear unit,SAP operational
+Measure,EM_OR,Odds ratio,Measure class
+Measure,EM_RR,Risk ratio,Measure class
+Measure,EM_HR,Hazard ratio,Measure class
+Measure,EM_MD,Mean difference,Measure class
+Measure,EM_WMD,Weighted mean difference,Measure class
+Measure,EM_PROPORTION,Proportion,Measure class
+Measure,EM_RATE,Incidence/event rate,Measure class
+Measure,EM_COUNT,Count,Measure class
+Measure,EM_MIXED_RATIO,Mixed OR/RR or HR/OR,Measure class
+Measure,EM_CONTINUOUS_OTHER,Other continuous comparison,Measure class
+Measure,EM_DESCRIPTIVE,Narrative/distribution/range,Measure class
+Measure,EM_OTHER,Other measure,Measure class
+Comparison,C15,Adult direct/combined bypass versus indirect bypass,SAP refinement; combined immediate-flow group
+Outcome,O16,Any/recurrent stroke or composite cerebrovascular event,Canonical composite clinical outcome

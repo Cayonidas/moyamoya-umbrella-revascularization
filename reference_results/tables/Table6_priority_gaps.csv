@@ -1,0 +1,11 @@
+Gap,Current limitation,Recommended design
+Surgical timing after acute ischemic or hemorrhagic events,Timing inconsistently reported and no reliable universal interval.,Prospective multicenter inception cohort or pragmatic trial with prespecified event-to-surgery intervals.
+"Cognition, quality of life, school performance and return to work",Only a very small fraction of extracted effects are patient-centered.,Core outcome set with validated neuropsychological and patient-reported measures.
+Pediatric clinical technique comparisons,Angiographic evidence is stronger than comparative clinical evidence.,"Prospective pediatric comparative registry with age, vessel size and MMS etiology strata."
+MMD versus etiologic moyamoya syndromes,Etiologic phenotypes are often mixed or contextual only.,Etiology-specific cohorts and separately reported idiopathic MMD results.
+Patient-level rather than hemisphere/procedure-level outcomes,Many effects use mixed or unclear analytical units.,Patient-level hierarchical models accounting for bilateral procedures and repeated surgery.
+Standardized early and late outcome windows,Early safety and late efficacy are frequently combined or not reported.,Core definitions for ≤30-day safety and >1-year efficacy.
+External applicability beyond East Asian/high-volume centers,Geographic and expertise concentration limits generalizability.,Multiregional prospective studies with center-volume and expertise adjustment.
+Treatment-effect modification by hemodynamics or anatomy,"Most reported factors are prognostic, not interaction-based modifiers.",Formal treatment-by-factor interaction analyses.
+"Reoperation, rescue surgery and late indirect-bypass failure",Sparse standardized reporting.,Long-term competing-risk and time-to-reintervention analyses.
+Validation of angiographic/hemodynamic surrogates,"Patency, Matsushima grade and perfusion are not established clinical surrogates.",Paired technical and clinical outcomes with longitudinal validation.

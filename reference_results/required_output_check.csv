@@ -1,0 +1,10 @@
+Output,Exists
+results/tables/moyamoya_manuscript_tables.xlsx,TRUE
+results/tables/02c_publication_qc_audit.xlsx,TRUE
+results/tables/Claims_guardrail.csv,TRUE
+results/figures/main/Figure_1_PRISMA.pdf,TRUE
+results/figures/main/Figure_2_phenotype_evidence_map.pdf,TRUE
+results/figures/main/Figure_3_anchor_review_forests.pdf,TRUE
+results/figures/main/Figure_4_early_late_tradeoff.pdf,TRUE
+results/figures/main/Figure_5_translation_chain.pdf,TRUE
+results/figures/main/Figure_sensitivity_matrix.pdf,TRUE

@@ -1,0 +1,14 @@
+# Licensing notice
+
+This repository contains code, original documentation, tabular research data, and limited source-verification material.
+
+## Code
+All original R source code in this repository is released under the MIT License. See `LICENSES/MIT.txt`.
+
+## Original documentation and tabular annotations
+Original documentation and tabular annotations created by the repository authors are released under the Creative Commons Attribution 4.0 International license (CC BY 4.0), except where third-party rights apply. See `LICENSES/CC-BY-4.0-NOTICE.txt`.
+
+## Third-party material
+Bibliographic metadata, article titles, citation information, and limited source-verification excerpts originate from previously published works. Those materials are not relicensed by this repository. Copyright and other rights in third-party material remain with the respective authors and publishers. No copyrighted full-text articles are redistributed in this repository.
+
+The repository is provided for transparency, reproducibility, and scholarly verification. Users remain responsible for complying with the licenses and terms applicable to third-party source material.

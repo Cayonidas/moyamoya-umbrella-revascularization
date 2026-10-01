@@ -1,0 +1,14 @@
+Log,Contains_NaN_warning,Contains_FATAL
+00_preflight.log,FALSE,FALSE
+02b_refine_inference.log,FALSE,FALSE
+02c_publication_qc.log,FALSE,FALSE
+03_descriptive_reviews.log,FALSE,FALSE
+04_anchor_selection.log,FALSE,FALSE
+05_effect_displays.log,FALSE,FALSE
+06_evidence_map.log,FALSE,FALSE
+07_tradeoff_translation.log,FALSE,FALSE
+08_overlap.log,FALSE,FALSE
+09_quality_conclusions.log,FALSE,FALSE
+10_sensitivities.log,FALSE,FALSE
+11_tables_figures.log,FALSE,FALSE
+12_reproducibility.log,FALSE,FALSE
